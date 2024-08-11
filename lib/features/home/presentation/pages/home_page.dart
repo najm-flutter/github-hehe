@@ -26,28 +26,31 @@ class _HomePage extends State<HomePage> {
           alignment: Alignment.topCenter,
           child: ConstrainedBox(
             constraints: const BoxConstraints(maxWidth: 416),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const SizedBox(
-                  height: 50,
-                ),
-                TitleWidget(),
-                TextFormWidget(),
-                ChooseLangWidget(),
-                ButtonHehe(),
-                BlocBuilder<GetHeheCubit, GetHeheState>(
-                  builder: (context, state) {
-                    return state.status == GetHeheStatus.success ||
-                            context.read<GetHeheCubit>().currentMessage.isNotEmpty
-                        ? state.status == GetHeheStatus.loading
-                            ? SizedBox()
-                            : ShowMessageWidget(message: state.message)
-                        : SizedBox();
-                  },
-                ),
-                StarAIToolsBanner()
-              ],
+            child: Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const SizedBox(
+                    height: 50,
+                  ),
+                  TitleWidget(),
+                  TextFormWidget(),
+                  ChooseLangWidget(),
+                  ButtonHehe(),
+                  BlocBuilder<GetHeheCubit, GetHeheState>(
+                    builder: (context, state) {
+                      return state.status == GetHeheStatus.success ||
+                              context.read<GetHeheCubit>().currentMessage.isNotEmpty
+                          ? state.status == GetHeheStatus.loading
+                              ? SizedBox()
+                              : ShowMessageWidget(message: state.message)
+                          : SizedBox();
+                    },
+                  ),
+                  StarAIToolsBanner()
+                ],
+              ),
             ),
           ),
         ),

@@ -8,7 +8,7 @@
 
 ## Demo
 
-🤜🤜 [From Here](https://flutter.dev/docs/get-started/install) 🤛🤛
+🤜🤜 [From Here](https://bit.ly/3WXIosq) 🤛🤛
 
 ## Features
 

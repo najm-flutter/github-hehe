@@ -4,7 +4,12 @@
 
 **GitHub Hehe** is a Flutter application that brings a touch of humor to GitHub account analysis. Whether you're looking for witty remarks, sarcastic comments, or just a light-hearted way to review your GitHub profile, this app has you covered. It's designed to provide both humorous and important feedback on GitHub profiles using AI.
 
-![Logo](https://live.staticflickr.com/2890/11026225464_721d2d4d69_b.jpg) 
+![Logo](https://github.com/najm-flutter/github-hehe/blob/main/asset/images/Screenshot.png?raw=true) 
+
+## Demo
+
+🤜🤜 [From Here](https://flutter.dev/docs/get-started/install) 🤛🤛
+
 ## Features
 
 - **Sarcastic Analysis:** Get witty and humorous feedback on your GitHub profile.

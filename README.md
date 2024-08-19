@@ -29,7 +29,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/github-hehe.git
+    git clone https://github.com/najm-flutter/github-hehe.git
     cd github-hehe
     ```
 
